@@ -18,11 +18,25 @@ body{
 .sidebar {
     background-color: #083344;
     grid-row: 1 / 3;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.user-items {
+    display: grid;
+    gap: 10px
 }
 
 .header-logo {
     height: 100px;
     fill: white;
+}
+
+.nav-items {
+    list-style: none;
+    font-size: 40px;
+    color: white;
 }
 
 .content {
