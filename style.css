@@ -17,10 +17,12 @@ body{
     margin-bottom: 5px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .header-top {
     padding: 20px;
+    padding-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -28,7 +30,6 @@ body{
 
 .header-top-left{
     height: 40px;
-    padding-left: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -51,20 +52,59 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 10px;
 }
 
 .notifs {
-    height: 20px;
+    height: 30px;
 }
 
 .user-icon {
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
+}
+
+.user-name{
+    font-size: 30px;
 }
 
 .header-bottom{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
 }
+
+.header-bottom-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-icon-main{
+    height: 80px;
+}
+
+.name-details{
+    font-size: 30px;
+}
+
+.header-bottom-right{
+    display: flex;
+    gap: 30px;
+    padding-right: 50px;
+}
+
+.header-btn{
+    height: 40px;
+    width: 120px;
+    border-radius: 50px;
+    border: none;
+    background-color: black;
+    color: #ecfeff;
+}
+
 .sidebar {
     background-color: #083344;
     grid-row: 1 / 3;
